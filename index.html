@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style media="screen">
+    body {
+        text-align: center;
+    }
+    #btnLogout {
+        text-align: center;
+        display: none;
+    }
+</style>
+<body>
+    <h2 id="header">SKRIV IN INLOGGNINGSUPPGIFTER</h2>
+    <form id="form">
+        <div type="text" id="error" style="display: none;">Inloggningen misslyckades!</div>
+        <div>
+            <label for="uName">Användarnamn</label><br>
+            <input type="text" id="uName" placeholder="Skriv Användarnamn..."><br>
+        </div>
+        <div>
+            <label for="pWord">Lösenord</label><br>
+            <input type="password" id="pWord" placeholder="Skriv Lösenord..."><br>
+        </div>
+        <button type="submit" id="btnLogin">Logga in</button>
+    </form>
+
+
+    
+    <button id="btnLogout">Logga ut</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
