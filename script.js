@@ -55,6 +55,7 @@ Användaren skickas tillbaka till inloggningssidan.
 btnLogout.addEventListener('click', (e) => {
     localStorage.clear();
     form.style.display = "block"
+    error.style.display = "none";
     header.textContent = "SKRIV IN INLOGGNINGSUPPGIFTER"
     btnLogout.style.display = "none"
 })
